@@ -10,3 +10,7 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
   - [TP4](./practica1/pr1ej4)     `"Areas"`   
   - [TP5](./practica1/pr1ej5)     `"Areas 2"`   
   
+  
+## Experimento:
+
+**Vamos a hacer un experimento:**  vamos a usar los robots de r-info, pero en vez de programar en el entorno de r-info, directamente programamos en el entorno en java.
