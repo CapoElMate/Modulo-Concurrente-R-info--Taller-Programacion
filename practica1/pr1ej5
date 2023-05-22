@@ -1,0 +1,141 @@
+programa pr1ej5
+
+procesos
+  proceso recogerFlores(ES cantF:numero)
+  comenzar
+    mientras HayFlorEnLaEsquina
+      tomarFlor
+      cantF := cantF +1
+  fin
+  
+  proceso depositarFlores(ES cantF:numero)
+  comenzar
+    repetir cantF
+      depositarFlor
+  fin
+  
+  proceso recorrerLineaF
+  variables
+    cantF:numero
+    posIniAv:numero
+    posIniCa:numero
+  comenzar
+    cantF := 0
+    {guardo la pos. inicial.}
+    posIniAv := PosAv
+    posIniCa := PosCa
+        
+    repetir 20
+      recogerFlores(cantF)
+      mover
+    
+    recogerFlores(cantF)
+    
+    {vuelvo al inicio}  
+    Pos(posIniAv,posIniCa)
+    
+    {deposito todas las flores}  
+    depositarFlores(cantF)
+  fin
+
+
+  proceso recogerPapeles(ES cantP:numero)
+  comenzar
+    mientras HayPapelEnLaEsquina
+      tomarPapel
+      cantP := cantP +1
+  fin
+  
+  proceso depositarPapeles(ES cantP:numero)
+  comenzar
+    repetir cantP
+      depositarPapel
+  fin
+  
+  proceso recorrerLineaP
+  variables
+    cantP:numero
+    posIniAv:numero
+    posIniCa:numero
+  comenzar
+    cantF := 0
+    {guardo la pos. inicial.}
+    posIniAv := PosAv
+    posIniCa := PosCa
+        
+    repetir 20
+      recogerPapeles(cantP)
+      mover
+    
+    recogerPapeles(cantP)
+    
+    {vuelvo al inicio}  
+    Pos(posIniAv,posIniCa)
+    
+    {deposito todas las flores}  
+    depositarPapeles(cantP)
+  fin
+
+
+
+
+areas
+  area1: AreaP(1,75,21,80)
+  area2: AreaP(75,80,80,100)
+  area3: AreaP(80,10,100,15)
+  area4: AreaP(10,1,15,21)
+  
+
+robots
+  robot robotFlor
+  
+  variables
+    posInicialAv: numero    
+    posInicialCa: numero    
+  comenzar
+    posInicialAv := PosAv
+    posInicialCa := PosCa
+    
+    derecha
+    
+    Pos(posInicialAv,posInicialCa+5)
+    recorrerLineaF
+    Pos(posInicialAv,posInicialCa)
+    recorrerLineaF
+  fin
+
+
+
+  robot robotPapel  
+  variables
+    posInicialAv: numero    
+    posInicialCa: numero    
+  comenzar
+    posInicialAv := PosAv
+    posInicialCa := PosCa
+        
+    Pos(posInicialAv+5,posInicialCa)
+    recorrerLineaF
+    Pos(posInicialAv,posInicialCa)
+    recorrerLineaF
+  fin
+
+
+variables
+  r1: robotFlor
+  r2: robotPapel
+  r3: robotFlor
+  r4: robotPapel
+comenzar
+  AsignarArea(r1,area1)
+  AsignarArea(r2,area2)
+  AsignarArea(r3,area3)
+  AsignarArea(r4, area4)
+  
+  Iniciar(r1,1,75)  
+  Iniciar(r2,75,80)
+  Iniciar(r3,80,10)
+  Iniciar(r4,10,1)
+fin
+
+

@@ -1,0 +1,141 @@
+programa pr1ej4
+
+procesos
+  
+  proceso izquierda
+  comenzar
+    repetir 3
+      derecha
+  fin
+
+  proceso limpiarPapeles
+  comenzar 
+    mientras HayPapelEnLaEsquina
+      tomarPapel
+  fin
+
+  proceso limpiarEnLineaP(E distancia:numero)
+  comenzar
+    repetir distancia
+      limpiarPapeles
+      mover
+  fin
+  
+  proceso limpiarAreaP
+  comenzar
+    
+    {limpio calles}
+    {repito 12 veces el mismo ciclo de bajar y subir}
+    repetir 12
+      limpiarEnLineaP(12)
+      derecha
+      
+      limpiarPapeles
+      mover    
+      derecha
+      
+      limpiarEnLineaP(12)
+      
+      izquierda
+      
+      limpiarPapeles
+      mover      
+      
+      izquierda
+    
+    
+    limpiarEnLineaP(12)
+    
+    limpiarPapeles
+  fin
+
+  proceso limpiarAreaF
+  comenzar
+    {limpio calles}
+    {repito 12 veces el mismo ciclo de bajar y subir}
+    repetir 12
+      limpiarEnLineaF(99)
+      derecha
+      
+      limpiarFlores
+      mover    
+      derecha
+      
+      limpiarEnLineaF(99)
+      
+      izquierda
+      
+      limpiarFlores
+      mover      
+      
+      izquierda
+    
+    
+    limpiarEnLineaF(99)
+    
+    limpiarFlores
+  fin
+
+
+  
+
+  proceso limpiarFlores
+  comenzar 
+    mientras HayFlorEnLaEsquina
+      tomarFlor
+  fin
+
+  proceso limpiarEnLineaF(E distancia:numero)
+  comenzar
+    repetir distancia
+      limpiarFlores
+      mover
+  fin
+
+
+areas
+  area1: AreaP(1,1,25,100)
+  area2: AreaP(26,1,50,100)
+  area3: AreaP(51,1,75,100)
+  area4: AreaP(76,1,100,100)
+
+robots
+  robot limpiadorPapeles
+  variables
+    posA:numero
+    posC:numero
+    
+  comenzar
+    limpiarAreaP
+    
+    posA := PosAv
+    posC := PosCa
+    
+    posA := posA + 24
+    
+    Pos(posA,posC)
+    
+    limpiarAreaP
+    
+  fin
+  
+  robot limpiadorFlores
+  comenzar
+  
+    limpiarAreaF
+  
+  fin
+
+      
+
+
+variables
+  r1: limpiadorPapeles
+comenzar
+  AsignarArea(r1, area2)
+  AsignarArea(r1, area4)
+    
+  Iniciar(r1,26,1)
+  
+fin
+
