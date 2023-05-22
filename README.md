@@ -17,5 +17,6 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
 **Vamos a hacer un experimento:**  vamos a usar los robots de r-info, pero en vez de programar en el entorno de r-info, directamente programamos en el entorno en java.
     
 ### Practica 1 (java-info):
- - voy a empezar rehaciendo el ej 3, de las escaleras:  
+ - voy a empezar rehaciendo el ej 3, de las escaleras:  [Ej3](experimento/practica1/pr1ej3exp)
+ 
    
