@@ -1,0 +1,52 @@
+programa pr1ej1
+
+
+procesos
+  proceso procesarEsquina(ES cantFlores: numero; ES esquinasSinFlores:numero)
+  comenzar
+    si HayFlorEnLaEsquina
+      mientras HayFlorEnLaEsquina
+        tomarFlor
+        cantFlores := cantFlores +1
+    sino
+      esquinasSinFlores := esquinasSinFlores +1
+  fin
+
+
+areas
+  ciudad: AreaC(1,1,100,100)
+
+
+robots
+  robot florero
+  variables
+    cantFlores: numero
+    esquinasSinFlores: numero
+  comenzar
+  
+    cantFlores := 0
+    esquinasSinFlores := 0
+    
+    repetir 10
+      procesarEsquina(cantFlores,esquinasSinFlores)    
+      mover
+      
+    repetir cantFlores
+      depositarFlor
+      
+    Informar('cantidadSinFlor',esquinasSinFlores)
+    Informar('cantidadDeFlores',cantFlores)
+      
+  fin
+    
+  
+  
+variables
+  robot1: florero
+  
+comenzar
+  AsignarArea(robot1,ciudad)
+  Iniciar(robot1, 1, 1)
+fin
+
+

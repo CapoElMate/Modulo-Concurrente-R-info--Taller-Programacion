@@ -1,0 +1,88 @@
+programa pr1ej2
+
+procesos
+  proceso procesarEsquina(ES cantP:numero)
+  comenzar
+    mientras HayPapelEnLaEsquina
+      cantP := cantP +1
+      tomarPapel    
+  fin
+  
+  proceso recorrerLinea(ES cantP: numero; E cant: numero)
+  comenzar
+    repetir cant
+      procesarEsquina(cantP)
+      mover
+  fin
+
+  proceso rotar(E cant: numero)
+  comenzar
+    repetir cant
+      derecha
+  fin
+
+areas
+  ciudad: AreaC(1,1,100,100)
+
+robots
+  robot rob1
+  variables
+    cantP: numero
+        
+  comenzar
+    rotar(0)    
+    recorrerLinea(cantP,20)
+    Informar(cantP)    
+  fin
+
+  robot rob2
+  variables
+    cantP: numero
+        
+  comenzar
+    rotar(1)    
+    recorrerLinea(cantP,20)    
+    Informar(cantP)
+  fin
+
+  robot rob3
+  variables
+    cantP: numero
+        
+  comenzar
+    rotar(2)    
+    recorrerLinea(cantP,20)    
+    Informar(cantP)
+  fin
+
+  robot rob4
+  variables
+    cantP: numero
+        
+  comenzar
+    rotar(3)    
+    recorrerLinea(cantP,20)    
+    Informar(cantP)
+  fin
+
+
+variables
+  robot1:rob1
+  robot2:rob2
+  robot3:rob3
+  robot4:rob4
+  
+  
+comenzar
+  AsignarArea(robot1,ciudad)
+  AsignarArea(robot2,ciudad)
+  AsignarArea(robot3,ciudad)
+  AsignarArea(robot4,ciudad)
+  
+  Iniciar(robot1,1,1)
+  Iniciar(robot2,1,21)
+  Iniciar(robot3,21,21)
+  Iniciar(robot4,21,1)
+  
+fin
+

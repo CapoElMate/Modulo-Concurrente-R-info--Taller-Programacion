@@ -1,0 +1,99 @@
+programa pr1ej3
+
+
+procesos
+  proceso procesarEsquina(ES cantF: numero; ES cantP: numero)
+  variables
+    cantActF: numero
+    cantActP: numero
+    
+  comenzar
+  
+    cantActP := 0
+    cantActF := 0
+  
+    mientras HayFlorEnLaEsquina
+      cantActF := cantActF +1
+      tomarFlor
+
+    cantF := cantF + cantActF
+      
+    repetir cantActF
+      depositarFlor
+      
+    mientras HayPapelEnLaEsquina
+      cantActP := cantActP +1
+      tomarPapel     
+    
+    cantP := cantP + cantActP
+    
+    repetir cantActP
+      depositarPapel
+  fin
+
+  proceso recorrerLinea(ES cantF: numero; ES cantP: numero; E distancia: numero)
+  comenzar
+    repetir distancia
+      procesarEsquina(cantF,cantP)
+      mover
+  fin
+  
+  proceso recorrerEscalon(ES cantCondiciones: numero; E distancia: numero)
+  variables
+    cantF: numero
+    cantP: numero
+    
+  comenzar
+    cantF := 0
+    cantP := 0
+    
+    recorrerLinea(cantF,cantP,distancia)
+    derecha
+      
+    recorrerLinea(cantF,cantP,distancia)
+      
+    repetir 3
+      derecha
+      
+   {verifico si la condicion se cumple}
+    si (cantF < (cantP -1))
+      cantCondiciones := cantCondiciones +1 
+      
+  fin
+  
+
+areas
+  area1: AreaC(1,1,100,100)
+  
+
+robots
+  robot robot1
+  variables
+    cantCondiciones:numero
+    tamanio: numero        
+  
+  comenzar
+    cantCondiciones := 0  
+    tamanio := 1
+    
+    mientras(tamanio <= 7)
+      recorrerEscalon(cantCondiciones,tamanio)
+      tamanio := tamanio +1
+    
+    
+    Informar('cantidadVecesQueSeCumpleQueCantPapelesSuperaEn1aLasFlores',cantCondiciones)
+    
+  fin
+
+
+
+variables
+  rob1: robot1
+
+
+comenzar
+  AsignarArea(rob1, area1)
+  Iniciar(rob1,1,1)
+  
+fin
+
