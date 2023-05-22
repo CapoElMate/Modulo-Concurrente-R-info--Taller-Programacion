@@ -18,6 +18,6 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
     
 ### Practica 1 (java-info):
  
- - [Ej3](experimento/practica1/pr1ej3exp) `empecé rehaciendo el ej 3, de las escaleras`
+ - [Ej3](experimento/practica1/pr1ej3exp) `empeze rehaciendo el ej 3, de las escaleras`
  
    
