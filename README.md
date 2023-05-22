@@ -1,4 +1,4 @@
-# Modulo-Concurrente-R-info--Taller-Programacion
+# Modulo-Concurrente--Taller-Programacion
 Modulo concurrente de la materia de Taller de programacion. Aprendemos concurrencia con el lenguaje R-info
 
 ## Practica 1:
