@@ -2,6 +2,7 @@
 Modulo concurrente de la materia de Taller de programacion. Aprendemos concurrencia con el lenguaje R-info
 
 ## Practica 1 (R-info) :
+  - [Consigna](./practica1/Practica1-Concurrente.pdf)
   - [Ej1](./practica1/pr1ej1)  
   - [Ej1A](./practica1/pr1ej1A)   
   - [Ej1B](./practica1/pr1ej1B)   
