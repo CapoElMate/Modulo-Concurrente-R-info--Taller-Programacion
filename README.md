@@ -1,7 +1,7 @@
 # Modulo-Concurrente--Taller-Programacion
 Modulo concurrente de la materia de Taller de programacion. Aprendemos concurrencia con el lenguaje R-info
 
-## Practica 1:
+## Practica 1 (R-info) :
   - [TP1](./practica1/pr1ej1)  
   - [TP1A](./practica1/pr1ej1A)   
   - [TP1B](./practica1/pr1ej1B)   
