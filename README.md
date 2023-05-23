@@ -17,6 +17,7 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
 **Vamos a hacer un experimento:**  vamos a usar los robots de r-info, pero en vez de programar en el entorno de r-info, directamente programamos en el entorno en java.
 
 #### Libreria Java de R-Info:  
+Cada uno de mis proyectos de netbeans debe tener el archivo r-info.jar en su mismo directorio. Si no funciona, importarlo manualmente.
  - [R-info.jar](experimento/r-info.jar)
 
 ### Practica 1 (java-info):
