@@ -36,6 +36,7 @@ Empezamos a trabajar con mensajes:
  - [Ejercicio 4](experimento/practica2/pr2ej4)   `"limpieza de cuadrado Random"`
 
 
-### Practica 3 (java-info):
+### Practica 3 (java-info):  
+Introducimos el bloqueo de esquinas para trabajar con areas compartidas:
  - [Ejercicio 1](experimento/practica2/pr3ej1) `" 2 equipos con areas compartidas"`
  - 
