@@ -23,5 +23,5 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
 ### Practica 2 (java-info):
   
 Empezamos a trabajar con mensajes:
-
+ - [Pdf Consiga ej 2](experimento/practica2/Practica-2-Concurrente.pdf)
  - [Ejercicio 1]() 
