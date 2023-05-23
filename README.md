@@ -24,10 +24,10 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
   
 Empezamos a trabajar con mensajes:
  - [Pdf Consiga Prac. 2](experimento/practica2/Practica-2-Concurrente.pdf)
- - [Ejercicio 1](experimento/practica2/ej1pr2exp)  
+ - [Ejercicio 1](experimento/practica2/ej1pr2exp)  `"Compentencia de flores"` 
  - [Ejercicio 1B](experimento/practica2/pr2ej1B)  
  - [Ejercicio 1C](experimento/practica2/pr2ej1C)   
- - [Ejercicio 2](experimento/practica2/pr2ej2)   
- - [Ejercicio 3](experimento/practica2/pr2ej3)   
- - [Ejercicio 4](experimento/practica2/pr2ej4)   
+ - [Ejercicio 2](experimento/practica2/pr2ej2)   `"Escalera Random"`
+ - [Ejercicio 3](experimento/practica2/pr2ej3)   `"Equipos juntadores"`
+ - [Ejercicio 4](experimento/practica2/pr2ej4)   `"limpieza de cuadrado Random"`
 
