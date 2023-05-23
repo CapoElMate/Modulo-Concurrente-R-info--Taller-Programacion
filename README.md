@@ -24,4 +24,6 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
   
 Empezamos a trabajar con mensajes:
  - [Pdf Consiga ej 2](experimento/practica2/Practica-2-Concurrente.pdf)
- - [Ejercicio 1](experimento/practica2/ej1pr2exp) 
+ - [Ejercicio 1](experimento/practica2/ej1pr2exp)  
+ - [Ejercicio 1B](experimento/practica2/pr2ej1B)  
+ - [Ejercicio 1C](experimento/practica2/pr2ej1C)   
