@@ -35,3 +35,7 @@ Empezamos a trabajar con mensajes:
  - [Ejercicio 3](experimento/practica2/pr2ej3)   `"Equipos juntadores"`
  - [Ejercicio 4](experimento/practica2/pr2ej4)   `"limpieza de cuadrado Random"`
 
+
+### Practica 3 (java-info):
+ - [Ejercicio 1](experimento/practica2/pr3ej1) `" 2 equipos con areas compartidas"`
+ - 
