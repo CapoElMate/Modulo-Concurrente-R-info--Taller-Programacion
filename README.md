@@ -2,14 +2,14 @@
 Modulo concurrente de la materia de Taller de programacion. Aprendemos concurrencia con el lenguaje R-info
 
 ## Practica 1 (R-info) :
-  - [Consigna](./practica1/Practica1-Concurrente.pdf)
-  - [Ej1](./practica1/pr1ej1)  
-  - [Ej1A](./practica1/pr1ej1A)   
-  - [Ej1B](./practica1/pr1ej1B)   
-  - [Ej2](./practica1/pr1ej2)     `"Cuadrado"`   
-  - [Ej3](./practica1/pr1ej3)     `"Escaleras"`   
-  - [Ej4](./practica1/pr1ej4)     `"Areas"`   
-  - [Ej5](./practica1/pr1ej5)     `"Areas 2"`   
+  - [Pdf Consigna](./practica1/Practica1-Concurrente.pdf)
+  - [Ejercicio 1](./practica1/pr1ej1)  
+  - [Ejercicio 1A](./practica1/pr1ej1A)   
+  - [Ejercicio 1B](./practica1/pr1ej1B)   
+  - [Ejercicio 2](./practica1/pr1ej2)     `"Cuadrado"`   
+  - [Ejercicio 3](./practica1/pr1ej3)     `"Escaleras"`   
+  - [Ejercicio 4](./practica1/pr1ej4)     `"Areas"`   
+  - [Ejercicio 5](./practica1/pr1ej5)     `"Areas 2"`   
   
   
 ## Experimento:
@@ -18,6 +18,10 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
     
 ### Practica 1 (java-info):
  
- - [Ej3](experimento/practica1/pr1ej3exp) `empecé rehaciendo el ej 3, de las escaleras`
- 
+ - [Ejercicio 3](experimento/practica1/pr1ej3exp) `empecé rehaciendo el ej 3, de las escaleras`
    
+### Practica 2 (java-info):
+  
+Empezamos a trabajar con mensajes:
+
+ - [Ejercicio 1]() 
