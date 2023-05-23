@@ -14,7 +14,7 @@ Modulo concurrente de la materia de Taller de programacion. Aprendemos concurren
   
 ## Experimento:
 
-**Vamos a hacer un experimento:**  vamos a usar los robots de r-info, pero en vez de programar en el entorno de r-info, directamente programamos en el entorno en java.
+**Vamos a hacer un experimento:**  vamos a usar los robots de r-info, pero en vez de programar en el entorno de r-info, directamente programamos en el entorno en java. Si. Java...
     
 ### Practica 1 (java-info):
  
