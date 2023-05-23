@@ -28,3 +28,6 @@ Empezamos a trabajar con mensajes:
  - [Ejercicio 1B](experimento/practica2/pr2ej1B)  
  - [Ejercicio 1C](experimento/practica2/pr2ej1C)   
  - [Ejercicio 2](experimento/practica2/pr2ej2)   
+ - [Ejercicio 3](experimento/practica2/pr2ej3)   
+ - [Ejercicio 4](experimento/practica2/pr2ej4)   
+
