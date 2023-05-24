@@ -38,5 +38,6 @@ Empezamos a trabajar con mensajes:
 
 ### Practica 3 (java-info):  
 Introducimos el bloqueo de esquinas para trabajar con areas compartidas:
+ - [Pdf Consiga Prac. 3](experimento/practica3/Practica-3-Concurrente.pdf)
  - [Ejercicio 1](experimento/practica3/pr3ej1) `" 2 equipos con areas compartidas"`
  - [Ejercicio 2](experimento/practica3/pr3ej2) `carrera con escalones y una esquina compartida`
