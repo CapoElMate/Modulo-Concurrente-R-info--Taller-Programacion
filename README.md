@@ -43,5 +43,5 @@ Introducimos el bloqueo de esquinas para trabajar con areas compartidas:
  - [Ejercicio 2](experimento/practica3/pr3ej2) `"carrera con escalones y una esquina compartida"`  
  - [Ejercicio 3](experimento/practica3/pr3ej3) `" jefe genera una esq. rand. y los limpiadores la limpian. "`
  - [Ejercicio 4 A](experimento/practica3/pr3ej4-A) `" 4 robots mueven flores de una esquina a otra. "`
- - [Ejercicio 4 B](experimento/practica3/pr3ej4-B) `" 4 robots mueven flores de una esquina a otra. Ahora van a una casilla inicial entre pasos"`
-   [Ejercicio 5](experimento/practica3/pr3ej5) `" robots que juegan una carrera posicionando flores."`
+ - [Ejercicio 4 B](experimento/practica3/pr3ej4-B) `" 4 robots mueven flores de una esquina a otra. Ahora van a una casilla inicial entre pasos"`  
+ - [Ejercicio 5](experimento/practica3/pr3ej5) `" robots que juegan una carrera posicionando flores."`
