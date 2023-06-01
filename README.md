@@ -45,3 +45,10 @@ Introducimos el bloqueo de esquinas para trabajar con areas compartidas:
  - [Ejercicio 4 A](experimento/practica3/pr3ej4-A) `" 4 robots mueven flores de una esquina a otra. "`
  - [Ejercicio 4 B](experimento/practica3/pr3ej4-B) `" 4 robots mueven flores de una esquina a otra. Ahora van a una casilla inicial entre pasos"`  
  - [Ejercicio 5](experimento/practica3/pr3ej5) `" robots que juegan una carrera posicionando flores."`
+
+## Practica 4 (java-info):   
+Usamos la concurrencia en escenarios parecidos a los de la vida real.
+- [Ejercicio 1](experimento/practica4/pr4ej1) `"Clientes y Servidores"`
+- [Ejercicio 2](experimento/practica4/pr4ej2) `"Productores y Consumidores"`
+- [Ejercicio 3](experimento/practica4/pr4ej3) `"Sincronizacion Barrera"`
+- [Ejercicio 4](experimento/practica4/pr4ej4) `"Jefe y Trabajadores (master-slave)"`
