@@ -49,7 +49,7 @@ Introducimos el bloqueo de esquinas para trabajar con areas compartidas:
 
 ## Practica 4 (java-info):   
 Usamos la concurrencia en escenarios parecidos a los de la vida real.
-- [Pdf consigna prac. 4](experimento/practica4/Practica-4-Concurrente.pdf)
+- [Pdf consigna prac. 4](experimento/practica4/Prctica-4-Concurrente.pdf)
 - [Ejercicio 1](experimento/practica4/pr4ej1) `"Clientes y Servidores"`
 - [Ejercicio 2](experimento/practica4/pr4ej2) `"Productores y Consumidores"`
 - [Ejercicio 3](experimento/practica4/pr4ej3) `"Sincronizacion Barrera"`
