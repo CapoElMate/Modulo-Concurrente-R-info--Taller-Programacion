@@ -14,7 +14,7 @@ public class RobotCorredor extends Robot{
         int esqRecorridas = 0;
         
         //Recibo el msj de inicio:
-        recibirMensaje();
+        //recibirMensaje();
         
         //mientras no me salgue de la ciudad:
         while(posCa() < 100){
@@ -28,10 +28,14 @@ public class RobotCorredor extends Robot{
     }
     
     public void recorrerLinea(int dist ){
-        for (int i = 0; (i < dist) && (posCa() < 100) ; i++) {
+        int i = 0;        
+        
+        while((i < dist) && (posCa() < 100)){
             tomarPapeles();  
             mover();
+            i++;
         }
+        
     }
     
     public void tomarPapeles(){
