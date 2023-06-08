@@ -53,5 +53,5 @@ Usamos la concurrencia en escenarios parecidos a los de la vida real.
 - [Ejercicio 1](experimento/practica4/pr4ej1) `"Clientes y Servidores"`
 - [Ejercicio 2](experimento/practica4/pr4ej2) `"Productores y Consumidores"`
 - [Ejercicio 3-A](experimento/practica4/pr4ej3) `"Sincronizacion Barrera, con distancia"`
-- [Ejercicio 3-B](experimento/practica4/pr4ej3) `"Sincronizacion Barrera, con cantidad de flores"`
+- [Ejercicio 3-B](experimento/practica4/pr4ej3b) `"Sincronizacion Barrera, con cantidad de flores"`
 - [Ejercicio 4](experimento/practica4/pr4ej4) `"Jefe y Trabajadores (master-slave)"`
